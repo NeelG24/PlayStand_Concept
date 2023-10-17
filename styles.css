@@ -77,3 +77,26 @@ h2 {
 footer {
   margin-top: auto;
 }
+
+/* For screens smaller than 768px (typical smartphones) */
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column; /* Stack header items on top of each other */
+    align-items: center;
+  }
+
+  .header img {
+    margin-top: 20px; /* Adjust spacing for the logo */
+  }
+
+  nav ul {
+    text-align: center; /* Center the navigation links */
+  }
+
+  nav li {
+    display: block; /* Display navigation links as blocks */
+    margin: 10px 0; /* Add spacing between the links */
+  }
+}
+
+/* Additional mobile-specific styling can be added here */
